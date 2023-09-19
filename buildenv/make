@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --rm -t --name "ll_os-buildenv" -v $(pwd):/root/env ll_os-buildenv make $1
