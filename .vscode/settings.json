@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.h": "c",
+    "*.hpp": "cpp",
+    "Makefile": "makefile",
+    "*.asm": "asm-intel-x86-generic",
+  }
+}
