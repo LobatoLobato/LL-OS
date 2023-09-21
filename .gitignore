@@ -5,4 +5,7 @@ bx_enh_dbg.ini
 old
 dist
 
+buildenv/gcc-cross-x86_64-elf
+buildenv/README.md
+
 targets/**/kernel.bin

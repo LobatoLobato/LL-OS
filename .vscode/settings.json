@@ -1,8 +1,20 @@
 {
   "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.ino": "cpp",
+    "*.vue": "vue",
     "*.h": "c",
     "*.hpp": "cpp",
     "Makefile": "makefile",
     "*.asm": "asm-intel-x86-generic",
-  }
+    "streambuf": "cpp",
+    "typeinfo": "cpp",
+    "pr45877.C": "cpp",
+    "string": "cpp"
+  },
+  "C_Cpp.default.compilerPath": "/home/linuxbrew/.linuxbrew/bin/x86_64-elf-gcc"
 }
