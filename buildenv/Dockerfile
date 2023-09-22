@@ -1,12 +1,10 @@
-FROM homebrew/ubuntu20.04
+FROM lobatolobato/gcc-cross-i686-elf
 
-RUN sudo apt-get update && sudo apt-get upgrade -y
-RUN sudo apt-get install -y nasm
-RUN sudo apt-get install -y xorriso
-RUN sudo apt-get install -y grub-pc-bin
-RUN sudo apt-get install -y grub-common
-
-RUN brew install x86_64-elf-gcc
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install -y nasm
+RUN apt-get install -y xorriso
+RUN apt-get install -y grub-pc-bin
+RUN apt-get install -y grub-common
 
 VOLUME  /root/env
 WORKDIR /root/env

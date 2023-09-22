@@ -5,10 +5,15 @@
             "includePath": [
                 "${workspaceFolder}/src/interfaces/**"
             ],
-            "defines": [],
+            "defines": [
+                "__i386__"
+            ],
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "linux-gcc-x64",
+            "forcedInclude": [
+                "${workspaceFolder}/.vscode/vscode-preinclude.h"
+            ],
             "compilerArgs": [
                 "-ffreestanding",
                 "-c",

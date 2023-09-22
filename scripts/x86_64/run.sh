@@ -1,1 +1,0 @@
-qemu-system-x86_64 -cdrom build/out/x86_64/kernel.iso
